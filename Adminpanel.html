@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Protected Page</title>
+</head>
+<body>
+    <h1>Welcome to the Admin Page</h1>
+    <p>Please enter the password to proceed:</p>
+    <input type="password" id="passwordInput">
+    <button onclick="checkPassword()">Submit</button>
+    
+    <script>
+        function checkPassword() {
+            const enteredPassword = document.getElementById('passwordInput').value;
+            let correctPassword = 'Skibidi';
+            
+            if (enteredPassword === correctPassword) {
+                alert('Correct password! Redirecting...');
+                window.location.href = 'sj4d/mxo9';
+                
+                const newPassword = generatePassword();
+                alert('New password generated: ' + newPassword);
+                let correctPassword=newPassword;
+            } else {
+                alert('Incorrect password. Please try again.');
+            }
+        }
+        
+        function generatePassword() {
+            const newPassword = Math.random().toString(36).slice(2);
+            return newPassword;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+/* Admin Panel Styles */
+.admin-panel {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+}
+
+.admin-panel h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.admin-panel ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-panel li {
+  padding: 10px 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.admin-panel a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.admin-panel a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+body{
+  background-color: #282558;
+}
+#Acode {
+  border: 1px solid #171537;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#checkcode {
+  background-color: #171537;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+#checkcode hover{
+  background-color: #171530;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
